@@ -19,7 +19,7 @@ function modelLoaded() {
 
   classifier.predict(gotResults)
 
-  display.textContent='Requesting Webcam Permission...'
+  display.textContent='Need Webcam Permission...'
 }
 
 function gotResults(error, data) {
